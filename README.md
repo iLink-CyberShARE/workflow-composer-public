@@ -55,7 +55,6 @@ Raul Alejandro Vargas Acosta
 Luis Garnica Chavira   
 Natalia Villanueva-Rosales   
 Deana D. Pennington   
-Josiah Heyman   
 
 ## Acknowledgements
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.   

@@ -11,7 +11,7 @@ https://water.cybershare.utep.edu/resources/docs/en2/backend/swim-broker/
 ## Build and Run
 
 ### Option 1: Pull Docker Image 
-Env Requirements: Docker and Docker Compose
+Environment Requirements: Docker and Docker Compose
 
 The public image of the Workflow Composer can be pulled from the Dockerhub repo:  
 lagarnicachavira/workflow-composer-public   
@@ -24,7 +24,7 @@ You can directly run the application using the docker-compose.yml in this repo.
 
 
 ### Option 2: Build Docker Container
-Env Requirements: Docker
+Environment Requirements: Docker
 
 The Workflow Composer can be deployed as a docker container using Docker Build or Compose.
 
@@ -37,7 +37,7 @@ The Workflow Composer can be deployed as a docker container using Docker Build o
 7) Once running, the OpenAPI documentation will be locally available at http://localhost:8080/swagger
 
 ### Option 3: Build and Run Natively
-Requirements: Java (JDK) & MAVEN
+Environment Requirements: Java (JDK) & MAVEN
     - Clone or download this repo to your target machine.   
     - Open a terminal and run the command > mvn install   
     - Run jar command: > java -jar target/workflow-composer-0.1.jar server settings.yml   
@@ -51,14 +51,14 @@ The tests folder in this repository contains input and output files used as an a
 and the SWIM (http://purl.org/swim) case study. You may use the abstract sample files for quick demo purposes.
 
 ## Contributors
-Raul Alejandro Vargas Acosta
+Raul Alejandro Vargas Acosta   
 Luis Garnica Chavira   
 Natalia Villanueva-Rosales   
 Deana D. Pennington   
 Josiah Heyman   
 
 ## Acknowledgements
-This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.
+This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.   
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## License

@@ -3,14 +3,14 @@ The workflow composer automates the process to create a workflow plan for mode-t
 The current version exposes one enpoint that consumes an abstract workflow request and model catalog. The composer will 
 generate a workflow plan serialized in JSON format. 
 
-This microservice forms part of the SWIM model orchestration pool:
+This microservice forms part of the SWIM model orchestration pool, for more information view:   
 https://water.cybershare.utep.edu/resources/docs/en2/backend/swim-broker/
 
 ## OpenAPI Screenshots
 
 ## Build and Run
 
-### Pull Docker Image 
+### Option 1: Pull Docker Image 
 Env Requirements: Docker and Docker Compose
 
 The public image of the Workflow Composer can be pulled from the Dockerhub repo:  
@@ -23,7 +23,7 @@ You can directly run the application using the docker-compose.yml in this repo.
 3) Once running, the OpenAPI documentation will be locally available at http://localhost:8091/swagger
 
 
-### Build Docker Container
+### Option 2: Build Docker Container
 Env Requirements: Docker
 
 The Workflow Composer can be deployed as a docker container using Docker Build or Compose.
@@ -36,15 +36,15 @@ The Workflow Composer can be deployed as a docker container using Docker Build o
 6) Run the container: > docker run -p 8080:8080 workflow-composer-public:latest .
 7) Once running, the OpenAPI documentation will be locally available at http://localhost:8080/swagger
 
-### Build and Run Natively
+### Option 3: Build and Run Natively
 Requirements: Java (JDK) & MAVEN
-    - Clone or download this repo to your target machine.
-    - Open a terminal and run the command > mvn install
-    - Run jar command: > java -jar target/workflow-composer-0.1.jar server settings.yml
-    - Admin tools (dropwizard) at: http://localhost:8081   and OpenAPI Docs at http://localhost:8080/swagger
+    - Clone or download this repo to your target machine.   
+    - Open a terminal and run the command > mvn install   
+    - Run jar command: > java -jar target/workflow-composer-0.1.jar server settings.yml   
+    - Admin tools (dropwizard) at: http://localhost:8081   and OpenAPI Docs at http://localhost:8080/swagger   
 
-Potential Build Issues
-    - Make sure to set the POM file to a compatible java version on the target machine.
+Potential Build Issues   
+    - Make sure to set the POM file to a compatible java version on the target machine.   
 
 ## Testing
 The tests folder in this repository contains input and output files used as an abstract test case

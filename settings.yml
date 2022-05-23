@@ -1,0 +1,11 @@
+version: 1.0
+
+swagger:
+  resourcePackage: com.utep.ilink.swim.resources
+  schemes: ['http','https']
+  title: Workflow Composer
+  version: 0.1
+  description: Automated model-to-model workflow composition service
+  termsOfServiceUrl: https://swim.cybershare.utep.edu/en/policy
+  licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+  contactEmail: swim@utep.edu

@@ -1,0 +1,179 @@
+{
+    "context": "Context goes here, mainly for using generic vocab as prefix",
+    "transformations": [{
+        "id": "T1",
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }],
+    "models": [{
+        "id": "M1",
+        "inputs": [{
+                "id": "a"
+            },
+            {
+                "id": "b"
+            },
+            {
+                "id": "c"
+            }
+        ],
+        "outputs": [{
+                "id": "d"
+            },
+            {
+                "id": "e"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M2",
+        "inputs": [{
+                "id": "a"
+            },
+            {
+                "id": "d"
+            }
+        ],
+        "outputs": [{
+            "id": "f"
+        }],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M3",
+        "inputs": [{
+                "id": "b"
+            },
+            {
+                "id": "d"
+            }
+        ],
+        "outputs": [{
+                "id": "g"
+            },
+            {
+                "id": "h"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M4",
+        "inputs": [{
+                "id": "c"
+            },
+            {
+                "id": "d"
+            }
+        ],
+        "outputs": [{
+                "id": "g"
+            },
+            {
+                "id": "h"
+            }
+        ],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M5",
+        "inputs": [{
+                "id": "e"
+            },
+            {
+                "id": "f"
+            },
+            {
+                "id": "g"
+            }
+        ],
+        "outputs": [{
+            "id": "z"
+        }],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M6",
+        "inputs": [{
+                "id": "g"
+            },
+            {
+                "id": "h"
+            }
+        ],
+        "outputs": [{
+            "id": "z"
+        }],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M7",
+        "inputs": [{
+                "id": "g"
+            },
+            {
+                "id": "h"
+            }
+        ],
+        "outputs": [{
+            "id": "i"
+        }],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M8",
+        "inputs": [{
+                "id": "a"
+            },
+            {
+                "id": "d"
+            }
+        ],
+        "outputs": [{
+            "id": "y"
+        }],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }, {
+        "id": "M9",
+        "inputs": [{
+            "id": "x"
+        }],
+        "outputs": [{
+            "id": "y"
+        }],
+        "computationInfo": {
+            "method": "POST",
+            "contentType": "Content-Type: application/json",
+            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        }
+    }]
+}

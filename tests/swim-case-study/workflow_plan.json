@@ -1,0 +1,204 @@
+{
+  "1": [
+    {
+      "id": "7b7ac93638f711ec8d3d0242_transformation",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "application/json",
+        "url": "http://129.108.18.45:6010/swim-assembler/assemble/"
+      },
+      "prerequisites": []
+    }
+  ],
+  "2": [
+    {
+      "inputs": [
+        "bf52815c-2f92-40fd-9659-16aef6d7a1f0",
+        "e3acac56-b58c-4824-8aeb-ede897f2afc7",
+        "ceabcd39-dbed-4dc6-ba04-ee4c70691040",
+        "647ed38f-1ab6-4d8f-a8ff-c787e15a3270",
+        "ca7ff5d7-a173-41d2-ae66-3f45c7067a75",
+        "07bf59ad-69b1-4a24-924d-755db21be6fb",
+        "dab3a3d3-9486-4e61-b3cd-4b4e1ab9ae03",
+        "63738de8-1cdd-479c-b8ef-304d114f175c",
+        "1d84d2ac-ac0a-4e44-b955-8a8ea8c5d987",
+        "d5a605cf-6c65-4bc4-8d76-c15ac6e84379",
+        "700c3fbb-fab3-4fb0-94b5-50a9df2ae35d",
+        "d43254c2-2ac8-46fc-aafa-3de7e4524ed7",
+        "1a841eff-f326-4d0a-905a-a6c8ad0ae136",
+        "cfe06fd8-5358-46ad-ba78-38385c1a92f3",
+        "adeda9ef-521a-48af-8d12-764bef8c56a7",
+        "0b065fb5-31a6-4353-a014-279bf1f1189d",
+        "6d04fc8f-5a2f-4aab-855b-1f00ef7e7da3",
+        "5fd9c61d-a788-4976-af1d-4aa70f6de2a9",
+        "b1f40cf4-09e0-44db-b10a-7e7d4c617708",
+        "be7e712b-d97b-4d40-aa3b-77422dd668d9",
+        "0aeb2d76-3260-40a4-8a20-7525466c62d7",
+        "0ca0138f-7fb9-4b81-b0a2-3f9eb0845f07",
+        "9f085c2b-cdbd-45f1-bc21-107491067b10",
+        "c4491e32-6610-4951-9c37-eb210c66fae3",
+        "3a5e7327-a71f-4ca2-a69f-ec55f238db71",
+        "70f8cb97-83a3-4558-9cdc-91a43558d069",
+        "42ae65c2-46b9-47fc-a64b-b577130be0df",
+        "5be6efcd-756c-4107-9d4c-23f04c83bdf4",
+        "da28bca4-7562-4185-bd3e-dea37c8986b5",
+        "cc603293-b056-4033-85cf-3266b08d2198",
+        "1c831be2-fef0-4c5c-a861-e09e67a28a20",
+        "7728a3f5-d026-4f0d-8343-94446042dd03",
+        "11b894fb-169c-430b-bbd4-4181a874e2c6"
+      ],
+      "outputs": [
+        "55345ae8-74e2-4ef3-9ad8-1eca0f553c45",
+        "47f14796-8323-4c26-850e-693b1ede2eae",
+        "177581ee-f3df-454d-8576-85f1711445d2",
+        "ebda3908-f215-4577-b35b-effe3b646281",
+        "fd415768-3c68-4a13-8df2-8eb160c4c9cb",
+        "4205ef6d-476f-44cc-bf58-c248bf1a9fab",
+        "1fe0cf81-d96c-4900-adaa-a846243148fe",
+        "287d10cf-0a6b-4aca-9027-3da46cec40ef",
+        "c978afd0-14a2-4e95-8cd6-4f0cb7ff5758",
+        "3cc10cef-8473-4f2c-935a-37f9a4a90c6f",
+        "4e22c801-40d5-4318-b9ba-11bc898ea180",
+        "1cb8b2b5-2c1c-4ea8-9b72-b8cd9d5c73ab",
+        "e546ae48-4979-4229-a478-bedc3b72f3c2",
+        "b1db23a5-f62e-448b-97b8-1fb3694ed5da",
+        "6bf2e646-0470-47d5-8852-79341eb21734",
+        "d9c36c58-8983-44f6-8145-bc5d14f692a1",
+        "1b9f0f9a-396a-490f-ad8d-76fa5add8332",
+        "a0f323ed-e52e-45f0-be1e-051a771284eb",
+        "f8dccdec-93a9-4e19-9c49-c966c5a87e7e",
+        "08bd9011-891c-432c-8b17-0a566d652736",
+        "5c39cf36-4fb2-4bba-a967-9d42f75023a6",
+        "f6c224e0-ba55-41fd-b4b5-db7e40f68bec",
+        "8cb8cb63-a25b-4d39-877a-30a70b601730",
+        "a39c673c-5a13-4c74-9d49-3f6a7984e686"
+      ],
+      "id": "7b7ac93638f711ec8d3d0242",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "application/json",
+        "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+      },
+      "prerequisites": [
+        "7b7ac93638f711ec8d3d0242_transformation"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "5d8cdb841328534298eacf4a_transformation",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "application/json",
+        "url": "http://129.108.18.45:6010/swim-assembler/assemble/"
+      },
+      "prerequisites": [
+        "7b7ac93638f711ec8d3d0242"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "inputs": [
+        "74e805a8-2adb-4c56-af18-535404194cd1",
+        "1f2882cd-d4b9-45fb-9f87-830ed32eafbc",
+        "e47f0bd5-aa78-42a4-bd92-f3ea1160ac2e",
+        "7d5f7c61-1247-48b8-90bd-44e60a143165",
+        "a0d83218-081f-4d7a-bcf6-7301b812379b",
+        "8b183d96-531f-4e88-855e-8832315f774d",
+        "dea3da17-03be-4cff-8288-e2eedb5dcd13",
+        "b96e7fda-36a7-4d29-9b8b-de6323853d75",
+        "ca6a4fdf-261e-43a8-b806-adc1702a63cc",
+        "0184488f-5f94-49b1-98d1-484677f3c225",
+        "75c28940-786e-428d-bc3d-47b513df63f0",
+        "59e36cb5-0b33-4336-a6c4-89a65dcb1c0b",
+        "dde7cf83-e31f-42a4-9f3e-55f87718c616",
+        "746a4719-489e-4833-93dc-d0b6e48f0669",
+        "889807df-dc40-4fc3-8aeb-ec8337c5a9d6",
+        "e3a2f9ed-5e1d-47a9-bf83-48eacba65f4b",
+        "45137833-fbaf-451a-bd9a-0e5a0727fd1b",
+        "402596f5-5a42-4169-b177-083115f6aed4",
+        "5d68b32a-0eae-402e-8c9d-b449e3397e61",
+        "3cc10cef-8473-4f2c-935a-37f9a4a90c6f",
+        "4b3713cb-a148-4682-b2cf-e9fe96a63d53",
+        "4f880d5e-d0ab-4e91-8aaa-97c76f71bf35",
+        "bf9db98c-acf1-499a-a91d-541d8e4465fb",
+        "bc3955ed-e119-4d7a-8999-90e4eb929358",
+        "d668d46c-4826-49f0-93f5-9a5ed51f5a2a",
+        "2a620800-5aa6-4b86-b4df-4be57fd500c5",
+        "2c0e0bde-169e-4711-9963-46600b58496a"
+      ],
+      "outputs": [
+        "523c28c9-8406-4444-99cd-51b28a71bfe5",
+        "8abf162b-9c17-4271-8897-cb4a45907d85",
+        "a3828f20-f2de-4610-9ddc-aac80700c643",
+        "0a0c060f-a591-4ce2-97b8-be9fec000cf2",
+        "97d322e4-ed91-4058-b57a-d298e235e4bd",
+        "33e4c5a3-b4e6-450e-8bf3-443049003b20",
+        "9bc53c30-196e-427c-a451-bddfe172cc85",
+        "d18ecc84-16b5-4417-b957-889ec5b52ef5",
+        "b158eab1-f8e6-4888-ba96-aefac7d3d790",
+        "6040d14b-1aa8-42e5-9657-8743e50973ef",
+        "0cd70d62-45ff-4e2c-9655-7d8aadda8565",
+        "a83a0bcf-d660-4796-933e-ac1e4e273d54",
+        "a9aea697-be40-4731-8532-18131152ffdc",
+        "71dd12fb-6770-4ad7-a6b0-619a352a0b8f",
+        "65fbe342-e519-44b7-a96c-2146c2cfd149",
+        "997b64ec-fdb0-4243-8dfd-d8e6ce0f3ea9",
+        "aab74290-1264-4190-8229-669d3ca9ff66",
+        "19477266-2e27-4090-8453-e04bf534d7c1",
+        "ed719b81-b03b-4948-8c7a-6324c1f6f808",
+        "d52b69c9-d9a8-41c8-8f8a-b507c5f35919",
+        "ac28d347-13c3-4d0f-b423-4bcd633ec0cd",
+        "4f684f0b-76e5-42f4-8fd4-9626aea42993",
+        "5e24773c-9995-4ee2-995c-3d414b7cdefd",
+        "d5d6ff7a-28da-4138-b65d-b9924e3a16b9",
+        "97ca9efb-3a65-46ed-b1bc-a3fcb527128f",
+        "9553640b-e77a-4219-8854-95afab735267",
+        "bf9b5462-5ef0-4a06-a4fc-38cd757ea576",
+        "a827db54-48f3-40b6-8726-d24f80fdba50",
+        "60836093-bfca-407d-9cca-9e0ec7e71627",
+        "82f1b53e-45e9-432c-ac8a-622164e7bea2",
+        "fa79ea6d-a6b1-4fd5-94c9-95f292f9970b",
+        "8b884eac-cc2a-4060-ac70-f3fefba6c053",
+        "b17c08e9-f6b4-471e-81b2-6047746d78e1",
+        "8edf61ec-e9a0-4f0e-84c7-a1446689cbc0",
+        "18952caa-c2f3-42a6-8090-f19e546ff18f",
+        "e14381dd-08d9-48d1-8301-2ceb6d21d87f",
+        "8838e629-f65e-4fd2-82f2-689c1e7c8532",
+        "417815a9-4874-495d-9b4f-f12def3aa03a",
+        "46ce81a9-70fd-4e0f-a3b3-2e30a51b5f3d",
+        "d965d73a-9729-4f57-9d6b-1c136896cb1b",
+        "d98f04f6-c370-424a-bffe-b0e4195a33e7",
+        "3bf6871f-7be1-4447-b025-b802d64335e0",
+        "5d840480-76d5-441a-9072-d91618a808f2",
+        "633385af-0b0b-4421-a2d5-eaa59a0782c6",
+        "6e7b222d-f39a-4705-9e5e-7623d994a681",
+        "31dbbe2f-8b9f-4cbe-81ca-ab79be76d53d",
+        "b1d45737-23d6-470d-b537-38c338c2fc13",
+        "391772a7-debf-4c29-a466-3faff590d085",
+        "c28ae7ae-6e65-4e87-8a9f-1917b0d22489",
+        "3aa5254e-30b3-4d6b-801b-59137fb0443a",
+        "1046b534-5bd7-4509-8420-b35392391821",
+        "2460c8b5-55cd-4922-b8f6-c39cf0fffab7",
+        "5d44aace-7484-4caa-a940-1e0314575f57",
+        "84478e92-b716-4229-87c1-f86eeeb58a6b",
+        "e27ae033-a1cf-4302-a195-654bd4cd1036",
+        "e912ed98-5727-42fd-9fc3-7569b4150e71",
+        "3c372ad2-f320-415d-971a-267125c243e6",
+        "499cd0ef-dfcf-4168-9208-d7575ba4f30d",
+        "45b1da4b-9b69-4f83-b287-4441543e2394"
+      ],
+      "id": "5d8cdb841328534298eacf4a",
+      "computationInfo": {
+        "method": "POST",
+        "contentType": "application/json",
+        "url": "http://129.108.18.45:9179/user-scenario-input/"
+      },
+      "prerequisites": [
+        "5d8cdb841328534298eacf4a_transformation",
+        "7b7ac93638f711ec8d3d0242"
+      ]
+    }
+  ]
+}

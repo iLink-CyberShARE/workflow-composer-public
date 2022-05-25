@@ -44,7 +44,8 @@ Environment Requirements: Java (JDK) & MAVEN
     - Admin tools (dropwizard) at: http://localhost:8081   and OpenAPI Docs at http://localhost:8080/swagger   
 
 Potential Build Issues   
-    - Make sure to set the POM file to a compatible java version on the target machine.   
+    - Make sure to set the POM file to a compatible java version on the target machine.
+    - Ports 8080 and 8081 must be available
 
 ## Testing
 The tests folder in this repository contains input and output files used as an abstract test case

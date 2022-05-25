@@ -1,179 +1,176 @@
 {
     "context": "Context goes here, mainly for using generic vocab as prefix",
-    "transformations": [{
-        "id": "T1",
-        "computationInfo": {
-            "method": "POST",
-            "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
-        }
-    }],
+    "transformations": [],
     "models": [{
-        "id": "M1",
+        "id": "p1",
         "inputs": [{
-                "id": "a"
+                "id": "e1"
             },
             {
-                "id": "b"
+                "id": "e2"
             },
             {
-                "id": "c"
+                "id": "e3"
             }
         ],
         "outputs": [{
-                "id": "d"
+                "id": "e6"
             },
             {
-                "id": "e"
+                "id": "e7"
             }
         ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p1-endpoint-url.com"
         }
-    }, {
-        "id": "M2",
+    },{
+        "id": "p2",
         "inputs": [{
-                "id": "a"
+                "id": "e1"
             },
             {
-                "id": "d"
+                "id": "e6"
             }
         ],
         "outputs": [{
-            "id": "f"
-        }],
+                "id": "e8"
+            }
+        ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p2-endpoint-url.com"
         }
-    }, {
-        "id": "M3",
+    },{
+        "id": "p3",
         "inputs": [{
-                "id": "b"
+                "id": "e4"
             },
             {
-                "id": "d"
+                "id": "e6"
             }
         ],
         "outputs": [{
-                "id": "g"
+                "id": "e9"
             },
             {
-                "id": "h"
+                "id": "e10"
             }
         ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p3-endpoint-url.com"
         }
-    }, {
-        "id": "M4",
+    },{
+        "id": "p4",
         "inputs": [{
-                "id": "c"
+                "id": "e5"
             },
             {
-                "id": "d"
+                "id": "e6"
             }
         ],
         "outputs": [{
-                "id": "g"
+                "id": "e9"
             },
             {
-                "id": "h"
+                "id": "e10"
             }
         ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p4-endpoint-url.com"
         }
-    }, {
-        "id": "M5",
+    },{
+        "id": "p5",
         "inputs": [{
-                "id": "e"
-            },
-            {
-                "id": "f"
-            },
-            {
-                "id": "g"
+                "id": "e6"
             }
         ],
         "outputs": [{
-            "id": "z"
-        }],
+                "id": "e11"
+            }
+        ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p5-endpoint-url.com"
         }
-    }, {
-        "id": "M6",
+    },{
+        "id": "p6",
         "inputs": [{
-                "id": "g"
+                "id": "e7"
             },
             {
-                "id": "h"
+                "id": "e8"
+            },
+            {
+                "id": "e9"
             }
         ],
         "outputs": [{
-            "id": "z"
-        }],
+                "id": "e12"
+            }
+        ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p6-endpoint-url.com"
         }
-    }, {
-        "id": "M7",
+    },{
+        "id": "p7",
         "inputs": [{
-                "id": "g"
+                "id": "e9"
             },
             {
-                "id": "h"
+                "id": "e10"
             }
         ],
         "outputs": [{
-            "id": "i"
-        }],
+                "id": "e12"
+            }
+        ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p7-endpoint-url.com"
         }
-    }, {
-        "id": "M8",
+    },{
+        "id": "p8",
         "inputs": [{
-                "id": "a"
+                "id": "e9"
             },
             {
-                "id": "d"
+                "id": "e10"
             }
         ],
         "outputs": [{
-            "id": "y"
-        }],
+                "id": "e13"
+            }
+        ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p8-endpoint-url.com"
         }
-    }, {
-        "id": "M9",
+    },{
+        "id": "p9",
         "inputs": [{
-            "id": "x"
-        }],
+                "id": "e14"
+            }
+        ],
         "outputs": [{
-            "id": "y"
-        }],
+                "id": "e15"
+            }
+        ],
         "computationInfo": {
             "method": "POST",
             "contentType": "Content-Type: application/json",
-            "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+            "url": "http://p9-endpoint-url.com"
         }
     }]
 }

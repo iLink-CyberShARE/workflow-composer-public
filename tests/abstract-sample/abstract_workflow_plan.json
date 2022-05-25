@@ -1,0 +1,101 @@
+{
+    "2": [
+      {
+        "inputs": [
+          "e1",
+          "e2",
+          "e3"
+        ],
+        "outputs": [
+          "e6",
+          "e7"
+        ],
+        "id": "p1",
+        "computationInfo": {
+          "method": "POST",
+          "contentType": "Content-Type: application/json",
+          "url": "http://p1-endpoint-url.com"
+        },
+        "prerequisites": []
+      }
+    ],
+    "4": [
+      {
+        "inputs": [
+          "e6"
+        ],
+        "outputs": [
+          "e11"
+        ],
+        "id": "p5",
+        "computationInfo": {
+          "method": "POST",
+          "contentType": "Content-Type: application/json",
+          "url": "http://p5-endpoint-url.com"
+        },
+        "prerequisites": [
+          "p1"
+        ]
+      },
+      {
+        "inputs": [
+          "e1",
+          "e6"
+        ],
+        "outputs": [
+          "e8"
+        ],
+        "id": "p2",
+        "computationInfo": {
+          "method": "POST",
+          "contentType": "Content-Type: application/json",
+          "url": "http://p2-endpoint-url.com"
+        },
+        "prerequisites": [
+          "p1"
+        ]
+      },
+      {
+        "inputs": [
+          "e4",
+          "e6"
+        ],
+        "outputs": [
+          "e9",
+          "e10"
+        ],
+        "id": "p3",
+        "computationInfo": {
+          "method": "POST",
+          "contentType": "Content-Type: application/json",
+          "url": "http://p3-endpoint-url.com"
+        },
+        "prerequisites": [
+          "p1"
+        ]
+      }
+    ],
+    "6": [
+      {
+        "inputs": [
+          "e7",
+          "e8",
+          "e9"
+        ],
+        "outputs": [
+          "e12"
+        ],
+        "id": "p6",
+        "computationInfo": {
+          "method": "POST",
+          "contentType": "Content-Type: application/json",
+          "url": "http://p6-endpoint-url.com"
+        },
+        "prerequisites": [
+          "p1",
+          "p2",
+          "p3"
+        ]
+      }
+    ]
+  }

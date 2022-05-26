@@ -74,4 +74,3 @@ GNU GENERAL PUBLIC LICENSE v3.0
 ## Copyright
 © 2022 - University of Texas at El Paso (SWIM Project).
 
-## References

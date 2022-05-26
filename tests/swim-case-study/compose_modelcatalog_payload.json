@@ -9,7 +9,7 @@
       "computationInfo": {
         "method": "POST",
         "contentType": "application/json",
-        "url": "http://129.108.18.45:6010/swim-assembler/assemble/"
+        "url": "http://p-endpoint-url.com/swim-assembler/assemble/"
       }
     },
     {
@@ -17,7 +17,7 @@
       "computationInfo": {
         "method": "POST",
         "contentType": "application/json",
-        "url": "http://129.108.18.45:6011/swim-merge/postprocess"
+        "url": "http://p-endpoint-url.com/swim-merge/postprocess"
       }
     }
   ],
@@ -74,7 +74,7 @@
       "computationInfo": {
         "method": "POST",
         "contentType": "application/json",
-        "url": "http://dbserver.cs.utep.edu:9280/runmodel/"
+        "url": "http://p-endpoint-url.com/runmodel/"
       }
     },
     {
@@ -172,7 +172,7 @@
       "computationInfo": {
         "method": "POST",
         "contentType": "application/json",
-        "url": "http://129.108.18.45:9179/user-scenario-input/"
+        "url": "http://p-endpoint-url.com/user-scenario-input/"
       }
     },
     {
@@ -241,7 +241,7 @@
       "computationInfo": {
         "method": "POST",
         "contentType": "application/json",
-        "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+        "url": "http://p-endpoint-url.com/swim-wb-py/model/run"
       }
     }
   ]

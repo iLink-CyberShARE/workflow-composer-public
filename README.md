@@ -6,8 +6,6 @@ generate a workflow plan serialized in JSON format.
 This microservice forms part of the SWIM model orchestration pool, for more information view:   
 https://water.cybershare.utep.edu/resources/docs/en2/backend/swim-broker/
 
-## OpenAPI Screenshots
-
 ## Build and Run
 
 ### Option 1: Pull Docker Image 
@@ -15,6 +13,7 @@ Environment Requirements: Docker and Docker Compose
 
 The public image of the Workflow Composer can be pulled from the Dockerhub repo:  
 lagarnicachavira/workflow-composer-public   
+https://hub.docker.com/r/lagarnicachavira/workflow-composer-public   
 
 You can directly run the application using the docker-compose.yml in this repo.
 
@@ -50,6 +49,12 @@ Potential Build Issues
 ## Testing
 The tests folder in this repository contains input and output files used as an abstract test case
 and the SWIM (http://purl.org/swim) case study. You may use the abstract sample files for quick demo purposes.
+
+## OpenAPI Screenshots
+
+![Composer Input](/images/input_capture.png "Abstract Example Input")
+
+![Composer Output](/images/response_capture.png "Abstract Example Response")
 
 ## Contributors
 Raul Alejandro Vargas Acosta   

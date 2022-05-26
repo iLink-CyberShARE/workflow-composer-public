@@ -3,7 +3,7 @@ target/
 dependency-reduced-pom.xml
 
 # testing files
-resources/
+tests/
 
 # Ignore vs code IDE folders
 .vscode/
@@ -14,3 +14,6 @@ docker-compose.yml
 # Ignore git and cache folders
 .git
 .cache
+
+# images folder
+images/

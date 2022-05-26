@@ -52,8 +52,10 @@ and the SWIM (http://purl.org/swim) case study. You may use the abstract sample 
 
 ## OpenAPI Screenshots
 
+### Abstract Example Input
 ![Composer Input](/images/input_capture.png "Abstract Example Input")
 
+### Abstract Example Response
 ![Composer Output](/images/response_capture.png "Abstract Example Response")
 
 ## Contributors

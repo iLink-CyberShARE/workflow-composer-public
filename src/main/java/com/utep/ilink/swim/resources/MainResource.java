@@ -207,33 +207,35 @@ public class MainResource {
         System.out.println(
             APPNAME +
                 "Adding a transformation layer and process and the end of the workflow [START]");
-        System.out.println(APPNAME +"Adding a transformation layer and process and the end of the workflow [CANCELED]");
-        //This action has been canceled due to a new component: swim-merge
-      //   // Get models last layer
-      //   // create hashset of string with ids from every model
-      //   // create transformation process, set prerequisites to hashset
-      //   // add transformation process to a new and last layer
-      //   HashSet<String> prerequisitesLastLayer = new HashSet<>();
-      //   for (Computation computation : workflowHashMap.get(
-      //       workflowHashMap.size()))
-      //     prerequisitesLastLayer.add(computation.getId());
-      //   Transformation transformationProcessLastLayer = getTransformationProcess(
-      //       transformationCatalog);
-      //   // transformationProcessLastLayer.setId(
-      //   //     transformationProcessLastLayer.getId() + transformationProcessCounter);
-      //   transformationProcessLastLayer.setId("_transformation");
-      //   transformationProcessCounter++;
-      //   transformationProcessLastLayer.setPrerequisites(prerequisitesLastLayer);
-      //   workflowHashMap.putIfAbsent(
-      //       workflowHashMap.size() + 1,
-      //       new ArrayList<Computation>());
-      //   workflowHashMap
-      //       .get(workflowHashMap.size())
-      //       .add(transformationProcessLastLayer);
+        System.out
+            .println(APPNAME + "Adding a transformation layer and process and the end of the workflow [CANCELED]");
+        // This action has been canceled due to a new component: swim-merge
+        // // Get models last layer
+        // // create hashset of string with ids from every model
+        // // create transformation process, set prerequisites to hashset
+        // // add transformation process to a new and last layer
+        // HashSet<String> prerequisitesLastLayer = new HashSet<>();
+        // for (Computation computation : workflowHashMap.get(
+        // workflowHashMap.size()))
+        // prerequisitesLastLayer.add(computation.getId());
+        // Transformation transformationProcessLastLayer = getTransformationProcess(
+        // transformationCatalog);
+        // // transformationProcessLastLayer.setId(
+        // // transformationProcessLastLayer.getId() + transformationProcessCounter);
+        // transformationProcessLastLayer.setId("_transformation");
+        // transformationProcessCounter++;
+        // transformationProcessLastLayer.setPrerequisites(prerequisitesLastLayer);
+        // workflowHashMap.putIfAbsent(
+        // workflowHashMap.size() + 1,
+        // new ArrayList<Computation>());
+        // workflowHashMap
+        // .get(workflowHashMap.size())
+        // .add(transformationProcessLastLayer);
 
-      //   System.out.println(
-      //       APPNAME +
-      //           "Adding a transformation layer and process and the end of the workflow [DONE] ");
+        // System.out.println(
+        // APPNAME +
+        // "Adding a transformation layer and process and the end of the workflow [DONE]
+        // ");
       }
 
       for (int key : workflowHashMap.keySet()) {

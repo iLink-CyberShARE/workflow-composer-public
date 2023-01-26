@@ -66,11 +66,12 @@ Deana D. Pennington
 
 ## Acknowledgements
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.   
+
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## License
-GNU GENERAL PUBLIC LICENSE v3.0
+This software code is licensed under the [GNU GENERAL PUBLIC LICENSE v3.0](./license) and uses third party libraries that are distributed under their own terms (see [LICENSE-3RD-PARTY.md](./LICENSE-3RD-PARTY.md)).
 
 ## Copyright
-© 2022 - University of Texas at El Paso (SWIM Project).
+© 2019-2022 - University of Texas at El Paso (SWIM Project).
 

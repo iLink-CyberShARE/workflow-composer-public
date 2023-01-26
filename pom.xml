@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.utep.ilink.swim</groupId>
   <artifactId>workflow-composer</artifactId>
-  <version>0.1</version>
+  <version>1.0</version>
   <name>Workflow Composer</name>
   <url>https://swim.cybershare.utep.edu</url>
 
